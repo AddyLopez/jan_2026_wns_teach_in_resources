@@ -8,7 +8,7 @@ A list of resources compiled by Workers for a New Southwest (WNS) for a teach-in
 
 **_Accessibility rating_** by Lighthouse audit: 100/100 for desktops and 100/100 for mobile devices.
 
-### License
+## License
 
 MIT License
 
