@@ -145,6 +145,7 @@ img {
 
 figure {
   margin: 0 auto;
+  text-align: center;
 }
 
 section.about-wns {
@@ -153,7 +154,7 @@ section.about-wns {
 }
 
 p.attribution {
-  border-bottom: 1px solid;
+  border-bottom: 1px dotted hsla(34, 86%, 94%, 0.65);
   font-style: italic;
   margin: 0;
   padding-bottom: 3em;
@@ -165,13 +166,19 @@ p.attribution {
 }
 
 footer {
-  align-content: center;
+  align-items: center;
   background-color: hsla(0, 4%, 21%, 0.969);
   color: hsl(34, 86%, 94%);
-  display: flex;
-  font-size: 14px;
-  justify-content: end;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 11px;
+  justify-content: space-evenly;
   padding: 10px 20px;
+  text-align: center;
+}
+
+footer div {
+  margin: 0 5px;
 }
 
 footer a {
@@ -227,10 +234,6 @@ nav a:visited {
     font-size: 40px;
   }
 
-  footer {
-    justify-content: center;
-  }
-
   main.about article {
     padding: 8px;
   }
@@ -242,5 +245,13 @@ nav a:visited {
   main.about p,
   main.about li {
     font-size: 16px;
+  }
+
+  footer {
+    text-align: left;
+  }
+
+  footer div.divider {
+    border-right: 1px dotted hsla(34, 86%, 94%, 0.65);
   }
 }
