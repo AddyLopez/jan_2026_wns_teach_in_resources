@@ -83,13 +83,17 @@ section.about {
   padding: 20px 10px;
 }
 
+section.about h3 {
+  text-align: center;
+}
+
 section.about p {
   line-height: 1.5;
   font-size: 17px;
   font-weight: 450;
 }
 
-section.about a {
+section.about-wns a {
   color: #fdf2e4;
   font-weight: 700;
 }
@@ -97,11 +101,24 @@ section.about a {
 section.about img {
   max-width: 100%;
   border-radius: 5px;
+  min-width: 100%;
 }
 
 section.about-wns {
   background-color: #383434f7;
   color: white;
+}
+
+hr {
+  margin: 30px auto;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.right {
+  text-align: right;
 }
 
 footer {
@@ -136,4 +153,24 @@ nav a {
 
 nav a:visited {
   color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  h1.hero {
+    padding: 110px;
+  }
+  section.about {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* small screens (phones) */
+@media only screen and (max-width: 576px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  footer {
+    justify-content: center;
+  }
 }
