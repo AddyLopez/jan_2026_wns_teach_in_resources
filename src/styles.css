@@ -29,9 +29,9 @@ h1.hero {
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
+  line-height: 1.5;
   margin: 0;
   padding: 230px 0;
-  line-height: 1.5;
 }
 
 h1 {
@@ -46,9 +46,9 @@ h1 {
 .resources-h2 {
   background-color: #165350;
   color: white;
+  font-size: 30px;
   padding: 30px 0;
   margin: 0;
-  font-size: 30px;
   text-transform: uppercase;
 }
 
@@ -62,15 +62,15 @@ nav {
 }
 
 nav ul {
-  list-style: none;
   display: flex;
   justify-content: space-evenly;
+  list-style: none;
   margin: 0;
 }
 
 main li {
-  padding: 5px 0;
   font-weight: 600;
+  padding: 5px 0;
 }
 
 main section {
@@ -88,9 +88,9 @@ section.about h3 {
 }
 
 section.about p {
-  line-height: 1.5;
   font-size: 17px;
   font-weight: 450;
+  line-height: 1.5;
 }
 
 section.about-wns a {
@@ -99,8 +99,8 @@ section.about-wns a {
 }
 
 section.about img {
-  max-width: 100%;
   border-radius: 5px;
+  max-width: 100%;
   min-width: 100%;
 }
 
@@ -122,13 +122,13 @@ hr {
 }
 
 footer {
+  align-content: center;
   background-color: #383434f7;
   color: white;
   display: flex;
-  align-content: center;
+  font-size: 14px;
   justify-content: end;
   padding: 10px 20px;
-  font-size: 14px;
 }
 
 footer a {
@@ -137,8 +137,8 @@ footer a {
 
 a {
   color: #b21a25;
-  text-decoration: none;
   font-weight: 400;
+  text-decoration: none;
 }
 
 a:hover {
@@ -147,8 +147,8 @@ a:hover {
 
 nav a {
   color: white;
-  font-weight: 700;
   font-size: 24px;
+  font-weight: 700;
 }
 
 nav a:visited {
