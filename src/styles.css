@@ -69,35 +69,55 @@ nav ul {
   padding: 0;
 }
 
-main ul {
+main.resources ul {
   padding-inline-start: 20px;
 }
 
-main li {
+main.resources li {
   font-weight: 600;
   padding: 5px 0;
   overflow-wrap: break-word;
 }
 
-main section {
+main.resources section {
   padding: 10px;
 }
 
-section.about {
+section.about-wns,
+section.about-cpj {
+  align-items: center;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 20px 10px;
+  grid-gap: 10px;
   justify-content: center;
+  padding: 10px;
 }
 
-section.about h3 {
+main.about article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+main.about h2,
+main.about h3 {
   text-align: center;
 }
 
-section.about p {
+main.about p {
   font-size: 17px;
   font-weight: 450;
   line-height: 1.5;
+}
+
+main.about ul {
+  padding-inline-start: 20px;
+}
+
+main.about li {
+  padding: 5px 0;
+  overflow-wrap: break-word;
 }
 
 section.about-wns a {
@@ -114,22 +134,19 @@ section.about-cpj a {
   color: hsl(34, 86%, 94%);
 }
 
-section.about img {
+img {
   border-radius: 5px;
   max-width: 100%;
-  min-width: 100%;
+  height: auto;
 }
 
-section.about ul {
-  padding-inline-start: 20px;
+figure {
+  margin: 0 auto;
 }
+
 section.about-wns {
   background-color: hsla(0, 4%, 21%, 0.969);
   color: hsl(34, 86%, 94%);
-}
-
-hr {
-  margin: 30px auto;
 }
 
 .active {
@@ -190,7 +207,8 @@ nav a:visited {
   h1.hero {
     padding: 110px 0;
   }
-  section.about {
+  section.about-wns,
+  section.about-cpj {
     grid-template-columns: 1fr;
   }
 }
