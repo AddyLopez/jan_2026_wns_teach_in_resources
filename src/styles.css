@@ -1,6 +1,6 @@
 body {
-  background-color: #fdf2e4;
-  color: #383434f7;
+  background-color: hsl(34, 86%, 94%);
+  color: hsla(0, 4%, 21%, 0.969);
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   margin: 0 auto;
@@ -28,15 +28,15 @@ h1.hero {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: fdf2e4;
+  color: hsl(34, 86%, 94%);
   line-height: 1.5;
   margin: 0;
   padding: 230px 0;
 }
 
 h1 {
-  background-color: #165350;
-  color: #fdf2e4;
+  background-color: hsl(177, 58%, 21%);
+  color: hsl(34, 86%, 94%);
   font-size: 48px;
   margin: 0;
   padding: 30px 0;
@@ -44,8 +44,8 @@ h1 {
 }
 
 .resources-h2 {
-  background-color: #165350;
-  color: #fdf2e4;
+  background-color: hsl(177, 58%, 21%);
+  color: hsl(34, 86%, 94%);
   font-size: 30px;
   padding: 30px 5px;
   margin: 0;
@@ -57,7 +57,7 @@ h3 {
 }
 
 nav {
-  background-color: #b21a25;
+  background-color: hsl(356, 75%, 40%);
   padding: 30px;
 }
 
@@ -100,17 +100,17 @@ section.about p {
 }
 
 section.about-wns a {
-  color: #fdf2e4;
+  color: hsl(34, 86%, 94%);
   font-weight: 700;
 }
 
 section.about-cpj {
-  background-color: #165350;
-  color: #fdf2e4;
+  background-color: hsl(177, 58%, 21%);
+  color: hsl(34, 86%, 94%);
 }
 
 section.about-cpj a {
-  color: #fdf2e4;
+  color: hsl(34, 86%, 94%);
 }
 
 section.about img {
@@ -123,8 +123,8 @@ section.about ul {
   padding-inline-start: 20px;
 }
 section.about-wns {
-  background-color: #383434f7;
-  color: #fdf2e4;
+  background-color: hsla(0, 4%, 21%, 0.969);
+  color: hsl(34, 86%, 94%);
 }
 
 hr {
@@ -132,7 +132,7 @@ hr {
 }
 
 .active {
-  border-bottom: 2px solid #fdf2e4;
+  border-bottom: 2px solid hsl(34, 86%, 94%);
 }
 
 .bold {
@@ -145,8 +145,8 @@ hr {
 
 footer {
   align-content: center;
-  background-color: #383434f7;
-  color: #fdf2e4;
+  background-color: hsla(0, 4%, 21%, 0.969);
+  color: hsl(34, 86%, 94%);
   display: flex;
   font-size: 14px;
   justify-content: end;
@@ -154,11 +154,11 @@ footer {
 }
 
 footer a {
-  color: #fdf2e4;
+  color: hsl(34, 86%, 94%);
 }
 
 a {
-  color: #b21a25;
+  color: hsl(356, 75%, 40%);
   font-weight: 400;
   text-decoration: none;
 }
@@ -168,7 +168,7 @@ a:hover {
 }
 
 nav a {
-  color: #fdf2e4;
+  color: hsl(34, 86%, 94%);
   font-size: 24px;
   font-weight: 700;
 }
@@ -178,7 +178,7 @@ nav a:hover {
 }
 
 nav a:visited {
-  color: #fdf2e4;
+  color: hsl(34, 86%, 94%);
 }
 
 @media only screen and (max-width: 768px) {
