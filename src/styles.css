@@ -87,6 +87,7 @@ section.about {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 20px 10px;
+  justify-content: center;
 }
 
 section.about h3 {
