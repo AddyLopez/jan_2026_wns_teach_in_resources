@@ -90,6 +90,7 @@ section.about-cpj {
   grid-template-columns: 1fr 1fr;
   grid-gap: 10px;
   justify-content: center;
+  padding-top: 20px;
 }
 
 main.about article {
@@ -238,13 +239,14 @@ nav a:visited {
     padding: 8px;
   }
 
-  main.about ul {
-    padding-inline-start: 15px;
-  }
-
   main.about p,
   main.about li {
     font-size: 16px;
+  }
+
+  section.about-wns,
+  section.about-cpj {
+    padding-top: 0;
   }
 
   footer {
