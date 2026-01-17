@@ -90,7 +90,6 @@ section.about-cpj {
   grid-template-columns: 1fr 1fr;
   grid-gap: 10px;
   justify-content: center;
-  padding: 10px;
 }
 
 main.about article {
@@ -105,10 +104,16 @@ main.about h3 {
   text-align: center;
 }
 
+main.about h3 {
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+}
+
 main.about p {
   font-size: 17px;
   font-weight: 450;
   line-height: 1.5;
+  margin-bottom: 0.5em;
 }
 
 main.about ul {
@@ -118,19 +123,17 @@ main.about ul {
 main.about li {
   padding: 5px 0;
   overflow-wrap: break-word;
+  font-size: 17px;
+  line-height: 1.5;
 }
 
-section.about-wns a {
+main.about a {
   color: hsl(34, 86%, 94%);
-  font-weight: 700;
+  font-weight: 600;
 }
 
 section.about-cpj {
   background-color: hsl(177, 58%, 21%);
-  color: hsl(34, 86%, 94%);
-}
-
-section.about-cpj a {
   color: hsl(34, 86%, 94%);
 }
 
@@ -149,16 +152,16 @@ section.about-wns {
   color: hsl(34, 86%, 94%);
 }
 
+p.attribution {
+  border-bottom: 1px solid;
+  font-style: italic;
+  margin: 0;
+  padding-bottom: 3em;
+  text-align: right;
+}
+
 .active {
   border-bottom: 2px solid hsl(34, 86%, 94%);
-}
-
-.bold {
-  font-weight: 700;
-}
-
-.right {
-  text-align: right;
 }
 
 footer {
@@ -173,6 +176,7 @@ footer {
 
 footer a {
   color: hsl(34, 86%, 94%);
+  font-weight: 600;
 }
 
 a {
@@ -209,7 +213,7 @@ nav a:visited {
   }
   section.about-wns,
   section.about-cpj {
-    grid-template-columns: 1fr;
+    display: block;
   }
 }
 
@@ -225,5 +229,18 @@ nav a:visited {
 
   footer {
     justify-content: center;
+  }
+
+  main.about article {
+    padding: 8px;
+  }
+
+  main.about ul {
+    padding-inline-start: 15px;
+  }
+
+  main.about p,
+  main.about li {
+    font-size: 16px;
   }
 }
