@@ -8,6 +8,8 @@ A list of resources compiled by Workers for a New Southwest (WNS) for a teach-in
 
 **_Accessibility rating_** by Lighthouse audit: 100/100 for desktops and 100/100 for mobile devices.
 
+**_Disclaimer:_** I do not own the rights to the logos for Workers for a New Southwest or the Albuquerque Center for Peace and Justice. If you reuse my code, please do not reproduce those logos. Thanks!
+
 ## License
 
 MIT License
