@@ -166,6 +166,10 @@ p.attribution {
   border-bottom: 2px solid hsl(34, 86%, 94%);
 }
 
+.italics {
+  font-style: italic;
+}
+
 footer {
   align-items: center;
   background-color: hsla(0, 4%, 21%, 0.969);
