@@ -21,17 +21,51 @@ h2 {
   text-align: center;
 }
 
-h1.hero {
+div.hero {
   background-image:
     linear-gradient(hsla(0, 0%, 0%, 0.35), hsla(0, 0%, 0%, 0.35)),
     url("../assets/hero-map.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: hsl(34, 86%, 94%);
   line-height: 1.5;
   margin: 0;
   padding: 230px 0;
+  text-align: center;
+}
+
+.hero-h1 {
+  background-color: transparent;
+  color: hsl(32, 87%, 94%);
+  margin: 0;
+}
+
+.hero a {
+  background-color: hsl(356, 75%, 40%);
+  border: 1px solid hsla(0, 0%, 0%, 0.51);
+  border-radius: 16px;
+  box-shadow: 2px 3px 4px hsl(0deg 0% 0% / 80%);
+  color: hsl(34, 86%, 94%);
+  display: inline-block;
+  font-family: "Archivo Black";
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: 0 auto;
+  padding: 20px 20px;
+  text-transform: uppercase;
+}
+
+.hero a:visited {
+  color: hsl(34, 86%, 94%);
+}
+
+.hero a:hover {
+  text-decoration: none;
+}
+
+.hero a:active {
+  transform: translate(1px, 1px);
 }
 
 h1 {
@@ -220,7 +254,7 @@ nav a:visited {
     padding: 30px 5px;
     margin: 0 auto;
   }
-  h1.hero {
+  div.hero {
     padding: 110px 0;
   }
   section.about-wns,
